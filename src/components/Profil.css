@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    display: flex;
+    align-items: center;
+    max-width: 24rem;
+    margin: 0 auto;
+    padding: 0rem;
+
+    background-color: #ebf1f1;
+    box-shadow:
+      -30px 20px 100px -30px rgba(235, 82, 17, 0.55),
+      80px 20px 100px -50px rgba(189, 59, 59, 0.55);
+  }
+  .zigzag-rectangle {
+    position: relative;
+  }
+  .zigzag-rectangle::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Adjust the position of the zig-zag */
+    left: 0;
+    width: 100%;
+    height: 30px; /* Adjust the height of the zig-zag */
+    /* background:
+      linear-gradient(-30deg, transparent 75%, #e1e4e8 75%) 0 / 20px 20px,
+      linear-gradient(30deg, transparent 75%, #edeef0 75%) 0 / 20px 20px; */
+
+    background: url('data:image/svg+xml,%3Csvg width="100%" height="100%" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill="%234A90E2" fill-opacity="1" d="M0,160L720,320L1440,160L1440,320L0,320Z"%3E%3C/path%3E%3C/svg%3E');
+    background-size: cover;
+  }
+
+  .btn {
+    @apply hover:bg-pink-600   pr-10  rounded-full py-1 px-3 hover:text-white  text-gray-500   ring-4 ring-gray-300 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300   hover:shadow-red-500 hover:ring-0;
+  }
+}

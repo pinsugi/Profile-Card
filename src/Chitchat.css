@@ -1,0 +1,32 @@
+.chat-notification {
+  display: flex;
+  align-items: center;
+  max-width: 24rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #ebf1f1;
+  box-shadow:
+    30px -20px 100px -5px rgba(81, 204, 56, 0.55),
+    -10px 15px 100px -5px rgba(223, 12, 12, 0.5);
+}
+.chat-notification-title {
+  flex-shrink: 5px;
+}
+.chat-notification-logo {
+  height: 3rem;
+  width: 3rem;
+}
+.chat-notification-content {
+  margin-left: 1.5rem;
+}
+.chat-notification-title {
+  color: #1a202c;
+  font-size: 1.25rem;
+  line-height: 0.25;
+}
+.chat-notification-message {
+  color: #211d20;
+  font-size: 1rem;
+  line-height: 5.5;
+}
