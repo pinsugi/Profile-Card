@@ -11,9 +11,9 @@
     padding: 0rem;
 
     background-color: #ebf1f1;
-    box-shadow:
+    /* box-shadow:
       -30px 20px 100px -30px rgba(235, 82, 17, 0.55),
-      80px 20px 100px -50px rgba(189, 59, 59, 0.55);
+      80px 20px 100px -50px rgba(189, 59, 59, 0.55); */
   }
   .zigzag-rectangle {
     position: relative;

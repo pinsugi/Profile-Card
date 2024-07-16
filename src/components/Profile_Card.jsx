@@ -3,7 +3,7 @@ import "./Profil.css";
 function Profile_Card() {
   return (
     <>
-      <div className=" card    flex flex-col    justify-around bg-slate-100  rounded-3xl   border-none pb-96 mt-20 ">
+      <div className=" card    flex flex-col    justify-around bg-slate-100  rounded-tr-3xl   bg-fixed  border-none pb-96 mt-20 ">
         <div className=" w-72 h-28 hover:shadow-2xl  py-11 pt-10 mt-0 flex zigzag-rectangle  items-center justify-center bg-pink-700   rounded-tl-3xl rounded-tr-full  rounded-bl-full  ">
           <div className="basis-1/4 ">
             {" "}
